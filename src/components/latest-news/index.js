@@ -14,7 +14,7 @@ function LatestNews(){
             menos por una hora y en un radio de 500 metros. Aún así, algunas provincias como Córdoba o Santa Fe, se 
             resisten a esta nueva medida.
           </h3>
-          <img src={require('../../assets/viernes-de-coronavirus-20200320-928863.jpg')} alt="Se permite el paseo recreativo"/>
+          <img src="./img/viernes-de-coronavirus-20200320-928863.jpg" alt="Se permite el paseo recreativo"/>
         </div>
       </div>
     )

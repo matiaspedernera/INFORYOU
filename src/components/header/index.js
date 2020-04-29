@@ -3,7 +3,7 @@ import React from 'react';
 function Header(){
     return(
         <header className="site-header">
-        <ul className="nav-list">
+          <ul className="nav-list">
             <a className="nav-list-item" href="#latest-news">
               <li>Ultimas Noticias</li>
             </a>

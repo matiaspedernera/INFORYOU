@@ -1,9 +1,9 @@
 import React from 'react';
 import './styles/style.scss';
-import './styles/components/header';
-import Header from './styles/components/header';
-import LatestNews from './styles/components/latest-news'
-import SideInfo from './styles/components/side-info'
+import './components/header';
+import Header from './components/header';
+import LatestNews from './components/latest-news'
+import SideInfo from './components/side-info'
 
 
 function App() {
