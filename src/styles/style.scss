@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Chakra Petch',sans-serif;
+}
+
+body{
+    background: rgb(234, 253, 248);
+
+}
+
+
+@import "./components/header/index";
+@import "./components/latest-news/index";
+@import "./components/side-info/index"

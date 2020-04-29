@@ -1,0 +1,26 @@
+.side-info{
+    position: absolute;
+    left: 1150px;
+    top: 150px;
+    .pClima{
+        font-size: 20px;
+        position: absolute;
+        top: -30px;
+        left: 55px;
+    }
+    .clima{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .pDolar{
+        font-size: 20px;
+        position: absolute;
+        top: 330px;
+        left: 100px;
+    }
+    .dolar{
+        margin-top: 30px;
+        margin-left: -80px;
+        width: 430px;
+    }
+}
