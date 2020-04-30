@@ -3,7 +3,7 @@ import './styles/style.scss';
 import './components/header';
 import Header from './components/header';
 import LatestInfo from './components/latest-news'
-import SideInfo from './components/side-info'
+/* import SideInfo from './components/side-info' */
 import NewsTitle from './components/news-title'
 
 
