@@ -7,10 +7,14 @@
 
 body{
     background: rgb(234, 253, 248);
-
 }
 
+.content-container{
+    margin-left: 12%;
+    margin-right: 12%;
+}
 
 @import "../components/header/index";
 @import "../components/latest-news/index";
-@import "../components/side-info/index"
+@import "../components/side-info/index";
+@import "../components/news-title/index";
