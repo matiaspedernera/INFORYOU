@@ -5,6 +5,13 @@ import NewsTitle from './components/news-title';
 import CovidSection from './components/covid-section';
 import Politics from './components/politics-section'
 import Society from './components/society-section'
+import Culture from './components/culture-section'
+import Sports from './components/sports-section'
+import Health from './components/health-section'
+import Police from './components/police-section'
+import Show from './components/show-section'
+import Footer from './components/footer'
+
 
 
 function App() {
@@ -17,7 +24,13 @@ function App() {
         <CovidSection/>
         <Politics/>
         <Society/>
+        <Sports/>
+        <Culture/>
+        <Police/>
+        <Show/>
+        <Health/>
       </div>
+      <Footer/>
     </div>  
   );
 }
