@@ -12,7 +12,7 @@
     }
     &__title{
         position: absolute;
-        bottom: 410px;
+        bottom: 368px;
         left: 200px;
         color: rgb(60, 40, 148);
         letter-spacing: 2px;
@@ -63,3 +63,22 @@
     }
 }
 
+@media only screen and (max-width: 768px){
+    .latest-info {
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            z-index: 10;
+            position: relative;
+            bottom: 0px;
+            left: 0px;
+        }
+        &__news {
+            width: 85%;
+            padding-top: 5px;
+        }
+        &__aside {
+            display: none;
+        }
+    }
+}

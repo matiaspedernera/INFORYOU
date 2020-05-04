@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function SideInfo(){
+const SideInfo = () =>{
     return(
         <aside className="side-info">
           <p className = "pClima">Pronóstico para hoy: </p>

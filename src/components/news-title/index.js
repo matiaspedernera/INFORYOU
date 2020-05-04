@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function NewsTitle(){
+const NewsTitle = () =>{
     return(
         <div className="title-container">
           <h1 className="logo">INFOR-YOU</h1>

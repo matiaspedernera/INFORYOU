@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Header(){
+const Header = () => {
     return(
         <header className="site-header">
-          <nav className="site-header_navbar">
+          <img className="site-header__logo" src="./logo/comunicacion.svg" alt="logo"/> 
+          <input type="checkbox" id="btnmenu"></input>   
+          <label for="btnmenu"><img className="site-header__hamburger-button" src="./logo/menu.svg" alt="menu"></img></label>
+          <nav className="site-header__navbar">
             <ul className="site-header__nav-list">
               <li className="site-header__nav-list--item">
                 <img className="site-header__nav-list--item__logo" src="./logo/comunicacion.svg" alt="logo"/> 

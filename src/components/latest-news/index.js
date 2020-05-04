@@ -1,9 +1,9 @@
 import React from 'react';
 
-function LatestInfo(){
+const LatestInfo = () =>{
     return (
       <section className="latest-info">
-        <h2 className="latest-info__title">Esto pasa hoy: Lunes 27 de Abril de 2020</h2>
+        <h2 className="latest-info__title">Esto pasa hoy: Lunes 4 de Mayo de 2020</h2>
         <article className="latest-info__news">
           <h3 className="latest_info__news-title">Coronavirus: algunas provincias ya permiten el "paseo recreativo"</h3>
           <p className="latest-info__news-paragraph">Se trata de la nueva medida para permitirles a los argentinos el poder salir del confinamiento, al

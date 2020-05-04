@@ -6,19 +6,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  &_title {
+  &__title {
     font-size: 25px;
     text-align: center;  
     background-color: rgb(185, 184, 184);
     width: 100%;
   }
-  &_news-container {
+  &__news-container {
     margin: 10px;
     width: 100%;
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
   }
-  &_news {
+  &__news {
       margin: 10px;
     &-picture {
       width: 100%;
@@ -28,6 +28,22 @@
         filter: brightness(125%);
         transition: 0.5s;
         } 
+    }
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .politics-section{
+    &__news-container {
+      grid-template-columns: 100%;
+      grid-template-rows: 33% 33% 33%;
+    }
+    &__news {
+      margin: 10px;
+      padding-top: 30px;
+      &:first-child {
+        padding-top: 0px;
+      }
     }
   }
 }
