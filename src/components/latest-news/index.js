@@ -18,9 +18,7 @@ function LatestInfo(){
           <h3 className="latest-info__aside-dolar-title">Dólar hoy:</h3>
           <img className="latest-info__aside-dolar" src="./img/dolar.jpg" alt="Dolar hoy"/>
         </aside>
-
       </section>
-      /* <iframe title="COVID-19" src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" frameborder ="0" className="novid-dashboard"></iframe> */
     )
 }
 
