@@ -7,7 +7,7 @@ const Culture = ({items,title}) => {
       <div className="culture-section__news-container">
         {items.map(item => (
           <article className="culture-section__news">
-            <img className="culture-section__news-picture" src={item.src} alt={item.src}/>    
+            <img className="culture-section__news-picture" src={item.src} alt={item.title}/>    
             <h4 className="culture-section__news-title">{item.title}</h4>
           </article> 
         ))}   
