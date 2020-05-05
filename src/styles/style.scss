@@ -9,21 +9,16 @@ body{
     background: rgb(234, 253, 248);
 }
 
-.content-container{
-    margin-left: 12%;
-    margin-right: 10%;
-}
-
 @import "../components/header/index";
-@import "../components/latest-news/index";
-@import "../components/side-info/index";
-@import "../components/news-title/index";
-@import "../components/covid-section/index";
-@import "../components/politics-section/index";
-@import "../components/society-section/index";
-@import "../components/culture-section/index";
-@import "../components/show-section/index";
-@import "../components/sports-section/index";
-@import "../components/police-section/index";
-@import "../components/health-section/index";
+@import "../components/layout/latest-news/index";
+@import "../components/layout/news-title/index";
+@import "../components/layout/covid-section/index";
+@import "../components/layout/politics-section/index";
+@import "../components/layout/society-section/index";
+@import "../components/layout/culture-section/index";
+@import "../components/layout/show-section/index";
+@import "../components/layout/sports-section/index";
+@import "../components/layout/police-section/index";
+@import "../components/layout/health-section/index";
 @import "../components/footer/index";
+@import "../components/layout/styles";
