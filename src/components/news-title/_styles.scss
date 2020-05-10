@@ -1,19 +1,19 @@
-.title-container{
+.title-container {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    .logo{
+    .logo {
         color: rgb(60, 40, 148);
-        text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.37);        
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.37);
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
         font-size: 70px;
         letter-spacing: 5px;
     }
-    .slogan{
+    .slogan {
         margin-top: 5px;
-        strong{
-            font-family: 'Chakra Petch',sans-serif;
+        strong {
+            font-family: "Chakra Petch", sans-serif;
             font-size: 20px;
             color: rgb(60, 40, 148);
         }

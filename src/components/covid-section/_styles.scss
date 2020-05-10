@@ -8,18 +8,18 @@
   align-items: center;
   &__title {
     font-size: 25px;
-    text-align: center;  
+    text-align: center;
     background-color: rgb(185, 184, 184);
     width: 100%;
   }
   &__graphic {
-      margin: 10px;
-      width:90%;
-      height: 470px;        
+    margin: 10px;
+    width: 90%;
+    height: 470px;
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .covid-section {
     width: 120%;
     margin-left: -11%;
