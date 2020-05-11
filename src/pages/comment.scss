@@ -1,0 +1,8 @@
+.comment-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+@import '../components/form/styles';
+@import '../components/comments-section/styles';

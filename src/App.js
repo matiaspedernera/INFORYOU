@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './pages/home';
-import Politica from './pages/politica';
+import LatestNews from './pages/latest-news';
+import Comments from './pages/comments';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {
@@ -8,7 +9,8 @@ const App = () => {
     <Router>
       <Switch>
         <Route path="/" exact component={Home}/>
-        <Route path="/politica" component={Politica}/>
+        <Route path="/ultimasnoticias" component={LatestNews}/>
+        <Route path="/comentarios" component={Comments}/>
       </Switch>
     </Router>
   );

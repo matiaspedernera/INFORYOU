@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
-  return(
+  return (
     <footer className="footer">
-      <img className="footer__logo" src="./logo/comunicacion.svg" alt="logo"></img>
+      <Link to="/comentarios">
+        <img className="footer__logo" src="./logo/comunicaciones.svg" alt="logo"></img>
+      </Link>
       <p className="footer__title">INFOR-YOU</p>
       <div className="footer__social-networks">
         <img className="footer__social-networks-logo" src="./logo/twitter.svg" alt="twitter"></img>

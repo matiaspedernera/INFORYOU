@@ -5,39 +5,39 @@ const Header = () => {
   const itemsTitle = [
     {
       title: "Ultimas Noticias",
-      to: "/politica"
+      to: "/ultimasnoticias"
     },
     {
       title: "Politica",
-      to: "/politica"
+      to: "/ultimasnoticias"
     },
     {
       title: "Sociedad",
-      to: "/politica"
+      to: "/ultimasnoticias"
     },
     {
       title: "Deportes",
-      to: "/politica"
+      to: "/ultimasnoticias"
     },
     {
       title: "Cultura",
-      to: "/politica"
+      to: "/ultimasnoticias"
     },
     {
       title: "Policiales",
-      to: "/politica"
+      to: "/ultimasnoticias"
     },
     {
       title: "Espectaculos",
-      to: "/politica"
+      to: "/ultimasnoticias"
     },
     {
       title: "Salud",
-      to: "/politica"
+      to: "/ultimasnoticias"
     },
     {
       title: "COVID-19",
-      to: "/politica"
+      to: "/ultimasnoticias"
     }
   ]
 
