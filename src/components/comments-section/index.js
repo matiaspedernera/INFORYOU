@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CommentsSection = ({commentsArray}) => {
+const CommentsSection = ({commentsArray = []}) => {
   return (
     <section className="comments-section">
       <h1 className="comments-section__title">Comentarios</h1>

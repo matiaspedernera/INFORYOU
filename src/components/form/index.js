@@ -9,7 +9,11 @@ class Form extends React.Component {
     }
 
     onSubmit = (e) => {
-        this.props.addComment(this.state.name,this.state.mail,this.state.comment)
+        const {name,mail,comment} = this.state
+        this.props.addComment({
+            name,
+            mail,
+            comment})
         e.preventDefault()
     }
 

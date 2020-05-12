@@ -9,7 +9,7 @@ const callFetch = async () => {
 }
 
 const newsFetched = () => {
-    console.log(process.env.REACT_APP_MOCK,process.env)
+    console.log(process.env.REACT_APP_MOCK,process.env,'hola')
 
     return process.env.REACT_APP_MOCK === "true" ? mockNews : callFetch()  
 }
